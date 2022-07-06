@@ -1,0 +1,80 @@
+.left{
+  display:inline-block;
+  position: absolute;
+  font-size: 30px;
+  padding:2px 2px;
+  margin:2px 2px;
+  color: #f32424;
+}
+.right{
+  display:block;
+  position: absolute;
+  top:23px;
+  right:33px;
+}
+.mid{
+  display:block;
+  width:45%;
+  margin: 20px auto;
+}
+.active{
+  font-size: 20px;
+  padding: 15px;
+  margin:2px 2px;
+  color:#aee;
+  text-decoration: none;
+}
+ .mid .active:hover{
+  text-decoration: underline;
+  color: #22f;
+}
+.btn{
+  border: 1px solid #387;
+  border-radius: 20px;
+  background-color: #aaa;
+}
+.btn:hover{
+  background-color: #bbe;
+  cursor: pointer;
+}
+.ok input{
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.container{
+  margin:71px 42px;
+  padding : 57px 36px;
+}
+ #high{
+   font-size: 40px;
+  color: #eee;
+}
+.size{
+  font-size: 21px;
+  color: #b54f4f;
+}
+.final{
+  margin: 27px 156px;
+  padding:8px 38px;
+  width: 20%;
+  background-color: #f32424;
+  color:#100f0f;
+  border: 2px solid #000;
+  border-radius:5px;
+}
+.final:hover{
+  background-color: #aaa;
+  cursor: pointer;
+}
+#aud{
+  font-size:21px;
+  color:#ee3;
+}
+#mysound{
+  margin:0px;
+  padding:0px;
+  border-radius: 20px;
+  width:50%;
+  background-color: #66a;
+  color: #227;
+}
